@@ -1,0 +1,14 @@
+#!/bin/bash
+#Do some calculations in your shell program
+
+echo "The number of parameters is: $#"
+
+echo -n "Enter an integer (positive or negative): "
+read num
+
+echo "$# + $num = $[$# + $num]"
+echo "$# * $num = $[$# * $num]"
+echo "The fifth paramter was ${5}"
+echo "We are using ${0} to run this script"
+
+echo "Adding a change - again"
